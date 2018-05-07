@@ -40,21 +40,17 @@ Now if you start making changes to your other repository, you'll need to update 
 
    git submodule update --init --recursive`
 
-2. Navigate into your submodule
-  
-  `cd otherrepository/`
+2. Pull from you master
 
-3. Pull from you master
-
-  `git pull origin master`
+  `git submodule foreach git pull origin master`
 
    To update all submodules
   
-4. Navigate back up to your GitHub Pages repository
+3. Navigate back up to your GitHub Pages repository
 
   `cd ..`
 
-5. Add/commit your updated files
+4. Add/commit your updated files
   
   `git add .gitmodules`
   
@@ -62,7 +58,7 @@ Now if you start making changes to your other repository, you'll need to update 
   
   `git commit -m "Updated otherrepository submodule"`
 
-6. Push your changes
+5. Push your changes
   
   `git push origin master`
 
