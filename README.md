@@ -38,6 +38,8 @@ Now if you start making changes to your other repository, you'll need to update 
   
   `cd path/to/your/repository.github.io`
 
+   git submodule update --init --recursive`
+
 2. Navigate into your submodule
   
   `cd otherrepository/`
@@ -45,6 +47,8 @@ Now if you start making changes to your other repository, you'll need to update 
 3. Pull from you master
 
   `git pull origin master`
+
+   To update all submodules
   
 4. Navigate back up to your GitHub Pages repository
 
