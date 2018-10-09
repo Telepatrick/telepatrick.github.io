@@ -1,6 +1,6 @@
 [submodule "m-manual-5e"]
 	path = m-manual-5e
-	url = https://github.com/telepatrick/m-manual-5e
+	url = https://github.com/Telepatrick/m-manual-5e
 [submodule "inq-missions"]
 	path = inq-missions
 	url = https://github.com/telepatrick/inq-missions
