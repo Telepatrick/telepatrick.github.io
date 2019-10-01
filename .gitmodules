@@ -4,3 +4,6 @@
 [submodule "inq-missions"]
 	path = inq-missions
 	url = https://github.com/telepatrick/inq-missions
+[submodule "heresy-world"]
+	path = heresy-world
+	url = https://github.com/telepatrick/heresy-world
